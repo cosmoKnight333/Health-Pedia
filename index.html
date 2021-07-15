@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>HealthPedia</title>
+    <title>MEdPedia</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -18,7 +18,7 @@
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -39,17 +39,16 @@
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo me-auto"><a href="index.html">Health|Pedia</a></h1>
+            <h1 class="logo me-auto"><a href="index.html">MEd|Pedia</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#skills">Healthy Diet</a></li>
-                    <li><a class="nav-link scrollto" href="#first-aid">First Aid</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Basic Health Problems</a></li>
+                    <li><a class="nav-link scrollto active font-weight-bold" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto font-weight-bold" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto font-weight-bold" href="https://ronchon-monsieur-17347.herokuapp.com/">MEd-Blogs</a></li>
+                    <li><a class="nav-link scrollto font-weight-bold" href="#team">Basic Health Problems</a></li>
 
                     <li class="dropdown"><a href="#pricing"><span>Covid19</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -426,9 +425,18 @@
 
         <!-- ======= Portfolio Section ======= -->
         <div id="first-aid">
+
+            <div class="container pl-5 pt-5 mt-5 pr-4 mb-0" data-aos="fade-up">
+
+                <div class="section-title ">
+
+
+                    <h2>Check Your First Aid:</h2>
+
+                </div>
+            </div>
             <section id="portfolio " class="portfolio ">
                 <div class="container">
-                    <H1>Check Your First Aid:</H1>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -825,7 +833,7 @@
                                         Most common symptoms:</b><br>
                                         <img src="assets/img/ring.png" width="5px"> Fever<br>
                                         <img src="assets/img/ring.png" width="5px"> Dry Cough<br>
-                                        <img src="assets/img/ring.png" width="5px"> Tiredness<br> Less common symptoms:</p>
+                                        <img src="assets/img/ring.png" width="5px"> Tiredness<br> </p>
                                     <p><b>Least common Symptoms:</b><br>
 
                                         <img src="assets/img/ring.png" width="5px"> Aches and Pains<br>
@@ -1031,31 +1039,29 @@
 
 
                     <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch ">
-                        <form class="php-email-form ">
+                        <form class="email-form " action='/' method='post'>
                             <div class="row ">
                                 <div class="form-group col-md-6 ">
                                     <label for="name ">Your Name</label>
-                                    <input type="text " name="name " class="form-control " id="name " required>
+                                    <input type="text " name="name" class="form-control " id="name " required>
                                 </div>
                                 <div class="form-group col-md-6 ">
                                     <label for="name ">Your Email</label>
-                                    <input type="email " class="form-control " name="email " id="email " required>
+                                    <input type="email " class="form-control " name="email" id="email " required>
                                 </div>
                             </div>
                             <div class="form-group ">
                                 <label for="name ">Subject</label>
-                                <input type="text " class="form-control " name="subject " id="subject " required>
+                                <input type="text " class="form-control " name="subject" id="subject " required>
                             </div>
                             <div class="form-group ">
                                 <label for="name ">Message</label>
-                                <textarea class="form-control " name="message " rows="10 " required></textarea>
+                                <textarea class="form-control " name="msg" rows="10 " required></textarea>
                             </div>
-                            <div class="my-3 ">
-                                <div class="loading ">Loading</div>
-                                <div class="error-message "></div>
-                                <div class="sent-message ">Your message has been sent. Thank you!</div>
+
+
+                            <div class="text-center"> <button class="tm-btn tm-btn-primary tm-btn-large">Submit</button>
                             </div>
-                            <div class="text-center "><button type="submit">Send Message</button></div>
                         </form>
                     </div>
 
@@ -1071,18 +1077,18 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
-            <h3 class="logo me-auto">HEALTH|PEDIA</h3>
+            <h3 class="logo me-auto">MEd|PEDIA</h3>
             <h4>Routine Healthcare Guide,Now In your Desktop</h4>
             <p>Follow us on:</p>
             <div class="social-links">
-                <a href="https://twitter.com/nhpindia?lang=en" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/Healthcare.gov" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/health_knowledge00/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://healthcaresuccess.com/blog/medical-marketing-advertising/new-google-local-shakes-up-search-what-healthcare-marketing-needs-to-know.html" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="https://www.linkedin.com/company/healthcare/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://t.me/joinchat/5OYnwTx9E0U1Y2Rl" class="twitter"><i class="bx bxl-telegram"></i></a>
+                <a href="https://www.facebook.com/dev.kumarseth.52" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/ck_0526/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://github.com/cosmoKnight333" class="google-plus"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/dev-kumar-seth-9b9b4919a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
             <div class="copyright">
-                &copy; Copyright <strong><span>HealthPedia</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>MEdPedia</span></strong>. All Rights Reserved
             </div>
         </div>
     </footer>
@@ -1102,7 +1108,6 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
     <script src="assets/vendor/php-email-form/validate.js "></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js "></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js "></script>
